@@ -9,7 +9,7 @@
 * Det giver street credit
 * Du kan tjene monetos
 
-[Lad os komme igang](browserfun.md)
+[Lad os komme igang](developertools.md)
 
 <!-- background color -->
 
