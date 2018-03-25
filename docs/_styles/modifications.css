@@ -1,0 +1,72 @@
+
+@font-face {
+    font-family: 'allstarregular';
+    src: url('fonts/allstar-webfont.woff2') format('woff2'),
+         url('fonts/allstar-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+section.cover img {
+    -webkit-box-shadow: 0 2px 5px 0 rgba(0,0,0,0.26);
+    -moz-box-shadow: 0 2px 5px 0 rgba(0,0,0,0.26);
+}
+
+section.cover p {
+    color: whitesmoke
+}
+section.cover li {
+    color: whitesmoke
+}
+section.cover .anchor span {
+    font-family: allstarregular;
+    color: whitesmoke
+}
+
+
+section.cover .cover-main >p:last-child a:last-child {
+    background: white;
+    border: 1px solid white;
+    -webkit-box-shadow: 0 2px 5px 0 rgba(0,0,0,0.26);
+    -moz-box-shadow: 0 2px 5px 0 rgba(0,0,0,0.26);
+    box-shadow: 0 2px 5px 0 rgba(0,0,0,0.26);
+    color: #0074d9;
+    color: var(--primary-color, #0074d9);
+    margin-bottom: 20px;
+    border-radius: 2rem;
+    box-sizing: border-box;
+    display: inline-block;
+    font-size: 16.8px;
+    font-size: 1.05rem;
+    letter-spacing: 1.6px;
+    letter-spacing: .1rem;
+    margin: 8px 16px;
+    margin: .5rem 1rem;
+    padding: .75em 32px;
+    padding: .75em 2rem;
+    text-decoration: none;
+    transition: all 0.15s ease;
+    text-transform: uppercase;
+    box-sizing: border-box;
+    display: inline-block;
+    min-width: 180px;
+}
+
+section.cover .cover-main>p a.button:hover {
+    color: white;
+    background-color: #FFA700;
+    background-color: var(--secondary-color, #FFA700);
+    border: 1px solid #FFA700;
+    border: var(--secondary-color, 1px solid #FFA700);
+}
+
+section.content img {
+    display: block;
+    margin: 0 auto;
+}
+
+section.content img + em {
+    display: block;
+    text-align: center;
+    color: #00A3DA;
+}

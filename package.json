@@ -1,0 +1,22 @@
+{
+  "name": "ks",
+  "version": "1.0.0",
+  "description": "Code School for kids",
+  "main": "index.js",
+  "scripts": {
+    "preview": "docsify serve docs"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lwallent/ks.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lwallent/ks/issues"
+  },
+  "homepage": "https://github.com/lwallent/ks#readme",
+  "devDependencies": {
+    "docsify-cli": "^4.2.1"
+  }
+}
